@@ -1,0 +1,74 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Chelsea",
+            "location": "London",
+            "catgories": ["shopping", "sightseeing", "photography"],
+            "feed_image": "https://images.unsplash.com/photo-1587971315632-20288867c7bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+            
+        },
+        {
+            "id": 2,
+            "name": "Amirah",
+            "location": "Madrid",
+            "catgories": ["clubbing, museums, food"],
+            "feed_image": ""
+            
+        },
+        {
+            "id": 3,
+            "name": "Kyle",
+            "location": "Honolulu",
+            "catgories": ["surfing, "],
+            "feed_image": "",
+            
+        },
+        {
+            "id": 4,
+            "name": "Michael",
+            "location": "Bali",
+            "catgories": ["photography", "hiking", "clubbing"],
+            "feed_image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+            
+        },
+        {
+            "id": 5,
+            "name": "Leah",
+            "location": "Colorado",
+            "catgories": ["hiking", "skiing", "shopping"],
+            "feed_image": "https://cdn.pixabay.com/photo/2017/08/06/12/06/people-2591874__340.jpg"
+            
+        },
+        {
+            "id": 6,
+            "name": "Jason",
+            "location": "Maldives",
+            "catgories": [],
+            "feed_image": "https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg"
+            
+        }
+
+        
+    ],
+    "myprofile": [
+        {
+        "name": "Me",
+        "images": ["https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg"]
+        }
+
+
+    ],
+    "favorited_content" [
+        {
+            "image": "https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg",
+            "catgories": ["food", "sightseeing"
+            ]
+        }
+    ]
+        
+
+
+    
+    
+}
