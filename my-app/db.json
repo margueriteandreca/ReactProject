@@ -59,16 +59,14 @@
 
 
     ],
-    "favorited_content" [
+    "favorited_content": [
         {
             "image": "https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg",
-            "catgories": ["food", "sightseeing"
-            ]
+            "catgories": ["food", "sightseeing"]
         }
     ]
         
 
 
-    
     
 }

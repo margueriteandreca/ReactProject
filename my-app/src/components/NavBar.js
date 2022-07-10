@@ -1,16 +1,19 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Home from "../icons/home.png"
 import Explore from "../icons/explore.png"
 import User from "../icons/user.png"
 
+
 function NavBar() {
+
     return (
-        <div>
+        <nav>
             This will be our navigation <br></br>
-            <button><img src={Home} className="nav-icon" style={{width: "30px"}}></img></button> 
-            <button className="nav-icon"><img src={Explore} className="nav-icon" style={{width: "30px"}}></img></button>
-            <button className="nav-icon"><img src={User} className="nav-icon" style={{width: "30px"}}></img></button>
-        </div>
+            <NavLink exact to="/"><button><img src={Home} className="nav-icon" alt="" style={{width: "30px"}}></img></button></NavLink>
+            <NavLink to="/explore"><button><img src={Explore} className="nav-icon" alt="" style={{width: "30px"}}></img></button></NavLink>
+            <NavLink to="/myprofile"><button><img src={User} className="nav-icon" alt="" style={{width: "30px"}}></img></button></NavLink>
+        </nav>
     )
 }
 
