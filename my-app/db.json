@@ -81,17 +81,69 @@
             }
     ]
         }
-
-
     ],
     "favorited_content": [
         {
-            "image": "https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg",
-            "catgories": ["food", "sightseeing"]
+            "id": 1,
+            "name": "Chelsea Smith",
+            "location": "London",
+            "catgories": ["shopping", "sightseeing", "photography"],
+            "image": "https://images.unsplash.com/photo-1587971315632-20288867c7bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+            
+        },
+        {
+            "id": 2,
+            "name": "Amirah Khan",
+            "location": "Madrid",
+            "catgories": ["Clubbing", "Museums", "Food"],
+            "image": "https://images.unsplash.com/photo-1585206908231-155cf84bc5b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWV4aWNvJTIwYXJjaGl0ZWN0dXJlfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60"   
+        },
+        {
+            "id": 3,
+            "name": "Kyle Bayliss",
+            "location": "Honolulu",
+            "catgories": ["surfing"],
+            "image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+            
+        },
+        {
+            "id": 4,
+            "name": "Michael Taylor",
+            "location": "Bali",
+            "catgories": ["photography", "hiking", "clubbing"],
+            "image": "https://images.unsplash.com/photo-1601401521820-966ad2e30d8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=800"
+            
+        },
+        {
+            "id": 5,
+            "name": "Leah Phillips",
+            "location": "Colorado",
+            "catgories": ["hiking", "skiing", "shopping"],
+            "image": "https://images.unsplash.com/photo-1603279560898-9eb1a6516d60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+            
+        },
+        {
+            "id": 6,
+            "name": "Jason Doe",
+            "location": "Maldives",
+            "catgories": [],
+            "image": "https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg"
+            
+        },
+        {
+            "id": 7,
+            "name": "Deacon Saint-John",
+            "location": "Honolulu",
+            "catgories": ["Lakes", "England", "Mountains"],
+            "image": "https://mediaim.expedia.com/destination/1/21b50a20e8d18cb7a94b138f6a90fc3a.jpg"
+            
+        },
+        {
+            "id": 8,
+            "name": "Sarah O'Brien",
+            "location": "Vienna",
+            "catgories": ["Photography", "Europe", "Clubbing"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqtJuqsdj0do3YbJp77LkIp4KBr2V38nUA95Ht7ak1W64KXJAMqVKomKN_w3mxop6rks&usqp=CAU"
         }
     ]
-        
-
-
-    
 }
