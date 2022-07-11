@@ -1,4 +1,5 @@
 import React from "react";
+import "../Explore"
 
 function Explore() {
     return (
