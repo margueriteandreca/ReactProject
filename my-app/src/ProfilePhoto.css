@@ -1,0 +1,16 @@
+.photo-div {
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.profile-images {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+
+}

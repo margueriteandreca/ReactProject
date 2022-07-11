@@ -3,7 +3,7 @@ import NavBar from './NavBar';
 import Explore from './Explore';
 import MyProfile from './MyProfile';
 import HomeFeed from "./HomeFeed";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Switch, Route } from "react-router-dom";
 
 
