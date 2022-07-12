@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import FeedPhotosContainer from "./FeedPhotosContainer";
+import "../Feed.css"
 
 
 function HomeFeed() {
@@ -14,8 +16,9 @@ function HomeFeed() {
     })} ,[])
 
     return (
-        <div>
-            This is the feed with users' photos 
+        <div id="homefeed-container">
+            <FeedPhotosContainer feed={feed}/>
+            
         </div>
     )
 

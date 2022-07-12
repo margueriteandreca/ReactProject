@@ -2,6 +2,7 @@
 import { findByLabelText } from "@testing-library/react";
 import React from "react";
 import ProfilePhoto from "./ProfilePhoto"
+import "../MyProfile.css"
 
 function MyPhotos({photos}) {
 
@@ -10,7 +11,7 @@ function MyPhotos({photos}) {
 
 
     return (
-        <div id="photos-container">{mappedProfilePhotos}</div>
+        <div className="photos-container">{mappedProfilePhotos}</div>
     )
 }
 

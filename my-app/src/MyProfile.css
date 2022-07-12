@@ -1,3 +1,9 @@
+body {
+    font-family: "Lato", "Arial", sans-serif;
+}
+
+
+
 #my-profile {
     background-color: whitesmoke;
     display: flex;
@@ -6,11 +12,25 @@
     justify-content: center;
 
 }
+
+/* #my-profile p {
+    margin: 20px;
+} */
+
+#profile-div {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin: 30px;
+}
+
+
 #profile-container {
     display: flex;
     flex-direction: column;
 }
-#photos-container {
+.photos-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,9 +39,32 @@
     flex-wrap: wrap;
     max-width: 960px;
     /* background-color: purple; */
-    
-    
+
 }
+
+
+#profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+#followers-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.followers {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
 
 #buttons-div {
     /* background-color: aqua; */

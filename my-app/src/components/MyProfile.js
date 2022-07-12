@@ -6,6 +6,8 @@ import "../MyProfile.css"
 
 function MyProfile() {
     const [photos, setPhotos] = useState([])
+    const [favorites, setFavorites] = useState([])
+    const [profileInfo, setProfileInfo] = useState([])
     const [isMyPhotos, setIsMyPhotos] = useState(true)
 
     function handleFavesClick() {
@@ -20,18 +22,31 @@ function MyProfile() {
         .then(res => res.json())
         .then(data => {
             console.log(data)
+            setProfileInfo(data)
             setPhotos(data[0].images)
             console.log(photos)
+            console.log(profileInfo)
         })} ,[])
+
+        const mappedProfileInfo = profileInfo.map(info => <ProfileInfo key={info.name} name={info.name} username={info.username} profilepic={info.profilepic} followers={info.followers} following={info.following} bio={info.bio} handleFavesClick={handleFavesClick} handleMyPhotosClick={handleMyPhotosClick}/>)
+
+    useEffect(() => {
+        fetch("http://localhost:3001/favorited_content")
+        .then(res => res.json())
+        .then(data => {
+            console.log(data)
+            setFavorites(data)
+        })} ,[])
+
 
 
 
     return (
         <div id="my-profile">
         <div id="profile-container">
-        <ProfileInfo handleFavesClick={handleFavesClick} handleMyPhotosClick={handleMyPhotosClick}/>
+        {mappedProfileInfo}
         
-        {isMyPhotos ? <MyPhotos photos={photos}/> : <FavoritedPosts />}
+        {isMyPhotos ? <MyPhotos photos={photos}/> : <FavoritedPosts favorites={favorites}/>}
         </div>
         </div>
     )

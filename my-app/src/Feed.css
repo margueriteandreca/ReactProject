@@ -1,0 +1,37 @@
+#homeeed-container {
+    background-color: whitesmoke;
+}
+
+#feed-container {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#images-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* #feed-photo-container {
+
+} */
+
+#feed-photo-container img {
+    width: 450px;
+    /* height: 300px; */
+}
+
+#suggested-container {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 15px;
+    
+
+}

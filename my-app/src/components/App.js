@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import Explore from './Explore';
 import MyProfile from './MyProfile';
 import HomeFeed from "./HomeFeed";
+import Map from "./Map"
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
@@ -19,6 +20,9 @@ return (
           </Route>
           <Route path="/explore">
               <Explore />
+          </Route>
+          <Route path="/map">
+              <Map />
           </Route>
           <Route path="/myprofile">
               <MyProfile />

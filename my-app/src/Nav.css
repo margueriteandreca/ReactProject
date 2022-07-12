@@ -11,7 +11,7 @@
     margin-right: 30px;
 }
 
-.nav-buttons button {
+#nav-bar button {
     border: none;
-    color: white;
+    background-color: white;
 }

@@ -1,9 +1,16 @@
 import React from "react";
 import ProfilePhoto from "./ProfilePhoto";
+// import MyProfile from "./MyProfile";
 
-function FavoritedPosts() {
+function FavoritedPosts({favorites}) {
+    console.log(favorites)
+
+    const mappedFavoritedPhotos = favorites.map(photo => <ProfilePhoto key={photo.id} photo={photo}/>)
+
     return (
-        <div>These are my faves</div>
+        <div className="photos-container">
+            {mappedFavoritedPhotos}
+        </div>
     )
 }
 

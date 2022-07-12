@@ -13,14 +13,14 @@
             "name": "Amirah",
             "location": "Madrid",
             "catgories": ["clubbing, museums, food"],
-            "feed_image": ""
+            "feed_image": "https://images.unsplash.com/photo-1564565899675-a159063d17be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG1hZHJpZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
             
         },
         {
             "id": 3,
             "name": "Kyle",
             "location": "Honolulu",
-            "catgories": ["surfing, "],
+            "catgories": ["surfing"],
             "feed_image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
             
         },
@@ -53,7 +53,13 @@
     ],
     "myprofile": [
         {
-        "name": "Me",
+        "name": "Danielle",
+        "username": "@daniellesworld",
+        "profilepic": "https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "postsNumber": "203",
+        "followers": "3479",
+        "following": "698",
+        "bio": "Living the dream",
         "images": [
             {
             "id": "1",
@@ -86,9 +92,36 @@
     ],
     "favorited_content": [
         {
+            "id": "1",
             "image": "https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg",
-            "catgories": ["food", "sightseeing"]
+            "categories": ["beach", "surfing"]
+        },
+        {
+            "id": "2",
+            "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+            "categories": ["food", "sightseeing", "urban"]
+        },
+        {
+            "id": "3",
+            "image": "https://images.unsplash.com/photo-1584994799922-51a28a405749?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "categories": ["museums", "sightseeing", "art", "architecture"]
+        },
+        {
+            "id": "4",
+            "image": "https://images.unsplash.com/photo-1539966797022-ead5d7d43db0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJpbyUyMGRlJTIwamFuZWlyb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+            "categories": ["beach", "mountains", "sightseeing"]
+        },
+        {
+            "id": "5",
+            "image": "https://images.unsplash.com/photo-1507494866709-e881bd11477e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHRyZWVzfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+            "categories": ["nature", "hiking"]
+        },
+        {
+            "id": "6",
+            "image": "https://images.unsplash.com/photo-1562499247-7b4b540eadcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29hdHN8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+            "categories": ["nature", "wildlife", "hiking"]
         }
+
     ]
         
 
