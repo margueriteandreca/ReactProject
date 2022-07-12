@@ -32,6 +32,15 @@
     margin-top: 50px;
     border-radius: 10px;
     padding: 15px;
-    
 
+}
+
+.follower-name {
+    font-size: smaller;
+
+}
+
+.follower-name p {
+    margin: 0px;
+    
 }
