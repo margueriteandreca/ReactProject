@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import ExplorePhoto from './ExplorePhoto';
 import '../Explore.css'
 
 function Explore() {
@@ -15,20 +16,7 @@ function Explore() {
 
     const displayFavImage = favData.map((fav) => <img key={fav.id} className="favImg" src={fav.image} alt='One of your favorited photos.' />)
 
-    const displayFavData = favData.map((fav) => {
-        return (
-            <div className='fav-image-container'>
-                <img key={fav.id} className="favImg" src={fav.image} alt='One of your favorited photos.' />
-                <div className='photoDetails'>
-                <h2>{fav.name}</h2>
-                <h3>{fav.location}</h3>
-                {fav.catgories.map((cat) => {
-                    return <h5>{cat.toUpperCase()}</h5>
-                })}
-                </div>
-            </div>
-        );
-    });
+    const displayFavData = favData.map(fav => <ExplorePhoto key={fav.id} fav={fav}/>);
 
     return (
         <>
