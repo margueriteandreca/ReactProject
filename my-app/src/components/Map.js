@@ -1,11 +1,14 @@
 import React, { useMemo } from "react"
 import {useState, useEffect} from "react"
+// eslint-disable-next-line
 import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api"
 import "../map.css"
 
-
+// eslint-disable-next-line
 function Map({location, setLocation, coordinates, setCoordinates}) {
+    // eslint-disable-next-line
     const [random, setRandom] = useState([])
+    // eslint-disable-next-line
     const center = useMemo(() => ({lat: 44, lng: -80}), []);
 
     useEffect(() => {

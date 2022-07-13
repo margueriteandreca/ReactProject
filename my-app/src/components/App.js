@@ -6,18 +6,34 @@ import HomeFeed from "./HomeFeed";
 import Map from "./Map"
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import {useState} from "react";
+import {useState, useEffect} from "react";
+// eslint-disable-next-line
 import {GoogleMap, useLoadScript, Marker} from "@react-google-maps/api"
 
 
 function App() {
+    // eslint-disable-next-line
     const [location, setLocation] = useState("New York City")
     const [coordinates, setCoordinates] = useState({lat: 40.7128, lng: -74.0060});
-    const [favorites, setFavorites] = useState([])
+    const [favorites, setFavorites] = useState([]);
+    const [myProfile, setMyProfile] = useState([]);
+    const [suggestions, setSuggestions] = useState([])
 
     // function savingLike(isLiked) {
     //     setLikedStatus(isLiked)
     // }
+
+    useEffect(() => {
+        fetch(`http://localhost:3001/myprofile`)
+        .then((r) => r.json())
+        .then((data) => setMyProfile(data))
+    }, []);
+
+    useEffect(() => {
+        fetch(`http://localhost:3001/suggestedimages`)
+        .then((r) => r.json())
+        .then((data) => setSuggestions(data))
+    }, []);
 
     function photoLocationToMap(coordinates) {
         // setLocation(location);
@@ -31,6 +47,18 @@ function App() {
         return <h3>Loading...</h3>
     }
 
+    if (myProfile.length === 0 && suggestions.length === 0){
+        return <h3>Loading...</h3>
+    }
+    console.log("APP -- MYPROFILE: ", myProfile);
+    console.log("APP -- SUGGESTIONS: ", suggestions);
+
+    let mySuggestions = []
+    
+    suggestions.forEach((img) => {
+        mySuggestions = [...mySuggestions, img.categories]
+    });
+
     return (
     <>
         <NavBar />
@@ -39,7 +67,7 @@ function App() {
                 <HomeFeed favorites={favorites} setFavorites={setFavorites}/>
             </Route>
             <Route path="/explore">
-                <Explore photoLocationToMap={photoLocationToMap}/>
+                <Explore photoLocationToMap={photoLocationToMap} myProfile={myProfile} posSuggestions={suggestions} mySuggestions={mySuggestions} />
             </Route>
             <Route path="/map">
                 <Map coordinates={coordinates} setCoordinates={setCoordinates}/>
