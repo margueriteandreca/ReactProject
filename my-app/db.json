@@ -242,28 +242,70 @@
         },
         {
           "id": "510",
-          "likes": "873",
-          "username": "@diegosilva.br",
-          "image": "https://images.unsplash.com/photo-1539966797022-ead5d7d43db0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJpbyUyMGRlJTIwamFuZWlyb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-          "location": "Rio de Janeiro",
-          "categories": ["beach", "mountains", "sightseeing"]
+          "likes": "293",
+          "username": "@robertbyersnyc",
+          "image": "https://images.unsplash.com/photo-1512075936709-bc355655b4f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWV0JTIwbXVzZXVtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+          "location": "New York City",
+          "categories": ["museum", "art", "architecture", "culture", "history", "sightseeing"]
         },
         {
           "id": "511",
-          "likes": "873",
-          "username": "@jeff_rey_sheldon",
-          "image": "https://images.unsplash.com/photo-1415226556993-1404e0c6e727?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ymx1ZSUyMGxhZ29vbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-          "location": "Reykjavik",
-          "categories": ["swimming", "nature"]
+          "likes": "293",
+          "username": "@robertbyersnyc",
+          "image": "https://images.unsplash.com/photo-1590700928582-5389e4ded3cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWV0cm9wb2xpdGFuJTIwbXVzZXVtJTIwb2YlMjBhcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
+          "location": "New York City",
+          "categories": ["museum", "art", "architecture", "culture", "history", "sightseeing"]
         },
         {
-          "id": "511",
-          "likes": "8733",
+          "id": "512",
+          "likes": "7948",
+          "username": "@daria_litvinovaa",
+          "image": "https://images.unsplash.com/photo-1533735069-24d3be786431?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aXRhbHklMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+          "location": "Positano",
+          "categories": ["food", "culture", "beach"]
+        },
+        {
+          "id": "513",
+          "likes": "9422",
+          "username": "@daria_litvinovaa",
+          "image": "https://images.unsplash.com/photo-1602532769069-0e856a643e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aXRhbHklMjBmb29kfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+          "location": "Venice",
+          "categories": ["food", "culture", "urban", "architecture"]
+        },
+        {
+          "id": "514",
+          "likes": "8833",
+          "username": "@daria_litvinovaa",
+          "image": "https://images.unsplash.com/photo-1560303323-0be94016eb5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dHVzY2FueXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=900&q=60",
+          "location": "Tuscany",
+          "categories": ["history", "culture", "sightseeing"]
+        },
+        {
+          "id": "515",
+          "likes": "8923",
           "username": "@gabriellamarinooo",
-          "image": "https://images.unsplash.com/photo-1627558009791-2280bfc9fe14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aXRhbHklMjBhcGVyb2x8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+          "image": "https://images.unsplash.com/photo-1624604268332-4dc76f995c48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aXRhbHklMjBsZW1vbnN8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
           "location": "Milan",
-          "categories": ["food", "culture"]
+          "categories": ["architecture", "urban"]
+        },
+        {
+          "id": "516",
+          "likes": "474",
+          "username": "@lindseygraham07",
+          "image": "https://images.unsplash.com/photo-1517963140-f60c9eceb504?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c29ob3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+          "location": "New York City",
+          "categories": ["sightseeing", "architecture", "urban"]
+        },
+        {
+          "id": "517",
+          "likes": "634",
+          "username": "@lindseygraham07",
+          "image": "https://images.unsplash.com/photo-1578655346479-43374d29a412?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c29ob3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
+          "location": "New York City",
+          "categories": ["sightseeing", "architecture", "urban"]
         }
+
+
 
 
     ],

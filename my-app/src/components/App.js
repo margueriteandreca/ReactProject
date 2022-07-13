@@ -3,8 +3,7 @@ import NavBar from './NavBar';
 import Explore from './Explore';
 import MyProfile from './MyProfile';
 import HomeFeed from "./HomeFeed";
-// import Map from "./Map"
-import MapAlt from './MapAlt';
+import Map from "./Map"
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import {useState} from "react";
@@ -30,7 +29,7 @@ return (
               <Explore />
           </Route>
           <Route path="/map">
-              <MapAlt location={location} setLocation={setLocation} />
+              <Map />
           </Route>
           <Route path="/myprofile">
               <MyProfile photoLocationToMap={photoLocationToMap}/>
