@@ -14,7 +14,7 @@ function Explore() {
         .then((data) => setFavData(data))
     }, []);
 
-    const displayFavImage = favData.map((fav) => <img key={fav.id} className="favImg" src={fav.image} alt='One of your favorited photos.' />)
+    // const displayFavImage = favData.map((fav) => <img key={fav.id} className="favImg" src={fav.image} alt='One of your favorited photos.' />)
 
     const displayFavData = favData.map(fav => <ExplorePhoto key={fav.id} fav={fav}/>);
 

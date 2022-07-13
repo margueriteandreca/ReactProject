@@ -3,12 +3,20 @@ import NavBar from './NavBar';
 import Explore from './Explore';
 import MyProfile from './MyProfile';
 import HomeFeed from "./HomeFeed";
-import Map from "./Map"
+// import Map from "./Map"
+import MapAlt from './MapAlt';
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+import {useState} from "react";
 
 
 function App() {
+    const [location, setLocation] = useState("New York City")
+
+    function photoLocationToMap(location) {
+        setLocation(location);
+    }
+
   
 
 return (
@@ -22,10 +30,10 @@ return (
               <Explore />
           </Route>
           <Route path="/map">
-              <Map />
+              <MapAlt location={location} setLocation={setLocation} />
           </Route>
           <Route path="/myprofile">
-              <MyProfile />
+              <MyProfile photoLocationToMap={photoLocationToMap}/>
           </Route>
           <Route path="/*">
               <h1>You must be lost...</h1>

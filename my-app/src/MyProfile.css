@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    margin: 30px;
+    margin: 10px;
 }
 
 
@@ -37,7 +37,8 @@ body {
     /* align-content: center; */
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 960px;
+    /* max-width: 960px; */
+    max-width: 980px;
     /* background-color: purple; */
 
 }
@@ -64,7 +65,9 @@ body {
 }
 
 
-
+#info-container {
+  margin-bottom: 50px;
+}
 
 #buttons-div {
     /* background-color: aqua; */

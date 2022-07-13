@@ -4,7 +4,7 @@ import FavoritedPosts from "./FavoritedPosts";
 import ProfileInfo from "./ProfileInfo";
 import "../MyProfile.css"
 
-function MyProfile() {
+function MyProfile({photoLocationToMap}) {
     const [photos, setPhotos] = useState([])
     const [favorites, setFavorites] = useState([])
     const [profileInfo, setProfileInfo] = useState([])
@@ -46,7 +46,7 @@ function MyProfile() {
         <div id="profile-container">
         {mappedProfileInfo}
         
-        {isMyPhotos ? <MyPhotos photos={photos}/> : <FavoritedPosts favorites={favorites}/>}
+        {isMyPhotos ? <MyPhotos photos={photos} photoLocationToMap={photoLocationToMap}/> : <FavoritedPosts favorites={favorites} photoLocationToMap={photoLocationToMap}/>}
         </div>
         </div>
     )

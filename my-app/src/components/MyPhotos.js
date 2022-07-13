@@ -4,10 +4,10 @@ import React from "react";
 import ProfilePhoto from "./ProfilePhoto"
 import "../MyProfile.css"
 
-function MyPhotos({photos}) {
+function MyPhotos({photos, photoLocationToMap}) {
 
 
-   const mappedProfilePhotos = photos.map(photo => <ProfilePhoto key={photo.id} photo={photo}/>)
+   const mappedProfilePhotos = photos.map(photo => <ProfilePhoto key={photo.id} photo={photo} photoLocationToMap={photoLocationToMap}/>)
 
 
     return (
