@@ -7,6 +7,7 @@ import Map from "./Map"
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import {useState} from "react";
+import {GoogleMap, useLoadScript, Marker} from "@react-google-maps/api"
 
 
 function App() {
@@ -16,7 +17,14 @@ function App() {
         setLocation(location);
     }
 
-  
+
+    const { isLoaded } = useLoadScript({googleMapsApiKey: ""});
+
+    if (!isLoaded) {
+        return <h3>Loading...</h3>
+    }
+
+
 
 return (
   <div>

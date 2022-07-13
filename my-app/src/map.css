@@ -1,5 +1,24 @@
+.places-container {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 300px;
+}
+
+.map-container {
+    width: 70%;
+    height: 70vh;
+}
+.combobox-input {
+    width: 100%;
+    padding: 0.5rem;
+}
+
 #map {
-    letter-spacing: normal;
-    transform: none;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
