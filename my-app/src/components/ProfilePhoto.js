@@ -6,9 +6,9 @@ import "../ProfilePhoto.css"
 function ProfilePhoto({photo, photoLocationToMap}) {
     console.log(photo)
 
+    let history = useHistory();
 
     function handleClick() {
-        let history = useHistory();
         console.log("Clicked location")
         photoLocationToMap(photo.location)
         history.push("/map")
