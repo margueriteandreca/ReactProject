@@ -19,15 +19,11 @@ function App() {
     //     setLikedStatus(isLiked)
     // }
 
-    
-
-
     function photoLocationToMap(coordinates) {
         // setLocation(location);
         setCoordinates(coordinates)
         console.log(coordinates)
     }
-
 
     const { isLoaded } = useLoadScript({googleMapsApiKey: "AIzaSyAllOt_OfWxDIIvWRAkyegaSKiuadrRmYw"});
 
@@ -35,30 +31,28 @@ function App() {
         return <h3>Loading...</h3>
     }
 
-
-
-return (
-  <div>
-      <NavBar />
-      <Switch>
-          <Route exact path="/">
-              <HomeFeed favorites={favorites} setFavorites={setFavorites}/>
-          </Route>
-          <Route path="/explore">
-              <Explore photoLocationToMap={photoLocationToMap}/>
-          </Route>
-          <Route path="/map">
-              <Map coordinates={coordinates} setCoordinates={setCoordinates}/>
-          </Route>
-          <Route path="/myprofile">
-              <MyProfile photoLocationToMap={photoLocationToMap} favorites={favorites} setFavorites={setFavorites}/>
-          </Route>
-          <Route path="/*">
-              <h1>You must be lost...</h1>
-          </Route>
-      </Switch>
-  </div>
-);
+    return (
+    <>
+        <NavBar />
+        <Switch>
+            <Route exact path="/">
+                <HomeFeed favorites={favorites} setFavorites={setFavorites}/>
+            </Route>
+            <Route path="/explore">
+                <Explore photoLocationToMap={photoLocationToMap}/>
+            </Route>
+            <Route path="/map">
+                <Map coordinates={coordinates} setCoordinates={setCoordinates}/>
+            </Route>
+            <Route path="/myprofile">
+                <MyProfile photoLocationToMap={photoLocationToMap} favorites={favorites} setFavorites={setFavorites}/>
+            </Route>
+            <Route path="/*">
+                <h1>You must be lost...</h1>
+            </Route>
+        </Switch>
+    </>
+    );
 }
 
 

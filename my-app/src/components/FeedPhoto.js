@@ -7,6 +7,9 @@ function FeedPhoto({user, favorites, setFavorites}) {
     const [isLiked, setIsLiked] = useState(false)
 
 
+    console.log("USER: ", user);
+
+
     function likedtoFavorites(favoritedPhoto) {
         if (isLiked) {
             fetch("http://localhost:3001/favorited_content", {
@@ -44,10 +47,10 @@ function FeedPhoto({user, favorites, setFavorites}) {
     // }
 
     // const {id, image, categories} = user
-    console.log(user)
+    //console.log(user)
     return (
         <div id="feed-photo-container">
-           <img className="profile-images" src={user.feed_image} alt="photo" />
+           <img className="profile-images" src={user.image} alt="photo" />
            <h3 className="description">{user.username}</h3>
             <h3 id="location" className="description">{user.location}</h3>
             <h3 className="description" onClick={handleClick}>{`♥ ${user.likes} likes`}</h3>

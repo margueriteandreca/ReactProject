@@ -1,8 +1,9 @@
 {
   "users": [
     {
-      "id": 7,
+      "id": 1,
       "name": "Chelsea",
+      "username": "@chelsea_fellows",
       "location": "London",
       "catgories": [
         "shopping",
@@ -13,11 +14,13 @@
         "lat": 51.5072,
         "lng": 0.1276
       },
-      "feed_image": "https://images.unsplash.com/photo-1587971315632-20288867c7bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+      "likes": 68,
+      "image": "https://images.unsplash.com/photo-1587971315632-20288867c7bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
     },
     {
       "id": 2,
       "name": "Amirah",
+      "username": "@ami1995",
       "location": "Madrid",
       "catgories": [
         "clubbing, museums, food"
@@ -26,11 +29,13 @@
         "lat": 40.4168,
         "lng": 3.7038
       },
-      "feed_image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+      "likes": 10,
+      "image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
     },
     {
       "id": 3,
       "name": "Kyle",
+      "username": "@superKyle",
       "location": "Honolulu",
       "coordinates": {
         "lat": 21.3099,
@@ -39,11 +44,13 @@
       "catgories": [
         "surfing, "
       ],
-      "feed_image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+      "likes": 193,
+      "image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
     },
     {
       "id": 4,
       "name": "Michael",
+      "username": "@michael08",
       "location": "Bali",
       "catgories": [
         "photography",
@@ -54,25 +61,34 @@
         "lat": -8.4095,
         "lng": 115.1889
       },
-      "feed_image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+      "likes": 89,
+      "image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
     },
     {
       "id": 5,
       "name": "Leah",
+      "username": "@LDavis",
       "location": "Colorado",
       "catgories": [
         "hiking",
         "skiing",
         "shopping"
       ],
-      "feed_image": "https://cdn.pixabay.com/photo/2017/08/06/12/06/people-2591874__340.jpg"
+      "likes": 43,
+      "image": "https://cdn.pixabay.com/photo/2017/08/06/12/06/people-2591874__340.jpg"
     },
     {
       "id": 6,
       "name": "Jason",
+      "username": "@jasonwalkerphotography",
       "location": "Maldives",
-      "catgories": [],
-      "feed_image": "https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg"
+      "catgories": [
+        "Europe",
+        "Summer",
+        "Classical"
+      ],
+      "likes": 47,
+      "image": "https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg"
     }
   ],
   "myprofile": [
@@ -102,7 +118,7 @@
           ]
         },
         {
-          "id": "2",
+          "id": 2,
           "likes": "836",
           "image": "https://images.unsplash.com/photo-1603279560898-9eb1a6516d60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
           "location": "Tulum",
@@ -117,7 +133,7 @@
           ]
         },
         {
-          "id": "3",
+          "id": 3,
           "likes": "489",
           "image": "https://images.unsplash.com/photo-1601401521820-966ad2e30d8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
           "location": "Tulum",
@@ -133,7 +149,7 @@
           ]
         },
         {
-          "id": "4",
+          "id": 4,
           "likes": "247",
           "image": "https://images.unsplash.com/photo-1613591797545-3ff9eba2ac34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
           "location": "Mexico City",
@@ -146,7 +162,7 @@
           ]
         },
         {
-          "id": "5",
+          "id": 5,
           "likes": "736",
           "image": "https://images.unsplash.com/photo-1452838269443-c86e6a3134f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWV4aWNvJTIwY2l0eXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
           "location": "Mexico City",
@@ -161,7 +177,7 @@
           ]
         },
         {
-          "id": "6",
+          "id": 6,
           "likes": "936",
           "image": "https://images.unsplash.com/photo-1585206908231-155cf84bc5b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWV4aWNvJTIwYXJjaGl0ZWN0dXJlfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
           "location": "Mexico City",
@@ -181,83 +197,8 @@
   "favorited_content": [
     {
       "id": 1,
-      "likes": "389",
-      "username": "@jasonwalkerphotography",
-      "image": "https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg",
-      "location": "Maldives",
-      "categories": [
-        "beach",
-        "surfing"
-      ]
-    },
-    {
-      "id": 2,
-      "likes": "355",
-      "username": "@emiliedavis",
-      "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
-      "location": "Buenos Aires",
-      "categories": [
-        "food",
-        "sightseeing",
-        "urban"
-      ]
-    },
-    {
-      "id": 3,
-      "likes": "8975",
-      "username": "@danielmaslowski",
-      "image": "https://images.unsplash.com/photo-1584994799922-51a28a405749?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-      "location": "New York City",
-      "categories": [
-        "museums",
-        "sightseeing",
-        "art",
-        "architecture"
-      ]
-    },
-    {
-      "id": 4,
-      "likes": "873",
-      "username": "@diegosilva.br",
-      "image": "https://images.unsplash.com/photo-1539966797022-ead5d7d43db0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJpbyUyMGRlJTIwamFuZWlyb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-      "location": "Rio de Janeiro",
-      "coordinates": {
-        "lat": -22.9068,
-        "lng": 43.1729
-      },
-      "categories": [
-        "beach",
-        "mountains",
-        "sightseeing"
-      ]
-    },
-    {
-      "id": 5,
-      "likes": "564",
-      "username": "@allenjames08",
-      "image": "https://images.unsplash.com/photo-1507494866709-e881bd11477e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHRyZWVzfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-      "location": "Sinaia",
-      "categories": [
-        "nature",
-        "hiking"
-      ]
-    },
-    {
-      "id": 6,
-      "likes": "4692",
-      "username": "@florian.mueller",
-      "image": "https://images.unsplash.com/photo-1562499247-7b4b540eadcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29hdHN8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      "location": "Zermatt",
-      "categories": [
-        "nature",
-        "wildlife",
-        "hiking",
-        "mountains"
-      ]
-    },
-    {
-      "id": 7,
       "name": "Chelsea",
+      "username": "@chelsea_fellows",
       "location": "London",
       "catgories": [
         "shopping",
@@ -268,27 +209,64 @@
         "lat": 51.5072,
         "lng": 0.1276
       },
-      "feed_image": "https://images.unsplash.com/photo-1587971315632-20288867c7bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+      "likes": 68,
+      "image": "https://images.unsplash.com/photo-1587971315632-20288867c7bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Amirah",
+      "username": "@ami1995",
+      "location": "Madrid",
+      "catgories": [
+        "clubbing, museums, food"
+      ],
+      "coordinates": {
+        "lat": 40.4168,
+        "lng": 3.7038
+      },
+      "likes": 10,
+      "image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 5,
+      "name": "Leah",
+      "username": "@LDavis",
+      "location": "Colorado",
+      "catgories": [
+        "hiking",
+        "skiing",
+        "shopping"
+      ],
+      "likes": 43,
+      "image": "https://cdn.pixabay.com/photo/2017/08/06/12/06/people-2591874__340.jpg"
     }
   ],
   "suggestedimages": [
     {
-      "id": "501",
+      "id": 501,
       "likes": "8733",
       "username": "@h.ahmed.photo",
       "image": "https://images.unsplash.com/photo-1547005327-ef75a6961556?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmVhY2h8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
       "location": "Maldives",
+      "coordinates": {
+        "lat": 3.2028,
+        "lng": 73.2207
+      },
       "categories": [
         "beach",
         "nature"
       ]
     },
     {
-      "id": "502",
+      "id": 502,
       "likes": "402",
       "username": "@matteo.it",
       "image": "https://images.unsplash.com/photo-1591467380820-86b050dcaa75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cm9tYXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
       "location": "Rome",
+      "coordinates": {
+        "lat": 41.9028,
+        "lng": 12.4964
+      },
       "categories": [
         "architecture",
         "history",
@@ -297,11 +275,15 @@
       ]
     },
     {
-      "id": "503",
+      "id": 503,
       "likes": "873",
       "username": "@jean.pierre.photos",
       "image": "https://images.unsplash.com/photo-1584266337361-679ae80c8519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGFyaXN8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
       "location": "Paris",
+      "coordinates": {
+        "lat": 48.8566,
+        "lng": 139.6503
+      },
       "categories": [
         "architecture",
         "urban",
@@ -310,7 +292,7 @@
       ]
     },
     {
-      "id": "504",
+      "id": 504,
       "likes": "249",
       "username": "@jean.pierre.photos",
       "image": "https://images.unsplash.com/photo-1546237769-6f84ec1a512a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3JvaXNzYW50fGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
@@ -326,7 +308,7 @@
       ]
     },
     {
-      "id": "505",
+      "id": 505,
       "likes": "4784",
       "username": "@",
       "image": "https://images.unsplash.com/photo-1554797589-7241bb691973?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dG9reW98ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
@@ -342,7 +324,7 @@
       ]
     },
     {
-      "id": "506",
+      "id": 506,
       "likes": "873",
       "username": "@best_japan_photos",
       "image": "https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bXQlMjBmdWppfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
@@ -359,7 +341,7 @@
       ]
     },
     {
-      "id": "506",
+      "id": 506,
       "likes": "873",
       "username": "@diego.g.29",
       "image": "https://images.unsplash.com/photo-1579282240050-352db0a14c21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2F1ZGl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
@@ -376,7 +358,7 @@
       ]
     },
     {
-      "id": "507",
+      "id": 507,
       "likes": "2930",
       "username": "@kennethjames",
       "image": "https://images.unsplash.com/photo-1606298246186-08868ab77562?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGVuZ2xhbmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
@@ -392,7 +374,7 @@
       ]
     },
     {
-      "id": "508",
+      "id": 508,
       "likes": "246",
       "username": "@visit.indonesia",
       "image": "https://images.unsplash.com/photo-1576018754442-97aae7e30f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
@@ -407,7 +389,7 @@
       ]
     },
     {
-      "id": "509",
+      "id": 509,
       "likes": "29381",
       "username": "@alessio_bachetti",
       "image": "https://images.unsplash.com/photo-1569314516237-411aa03c2a44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
@@ -425,7 +407,7 @@
       ]
     },
     {
-      "id": "510",
+      "id": 510,
       "likes": "293",
       "username": "@robertbyersnyc",
       "image": "https://images.unsplash.com/photo-1512075936709-bc355655b4f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWV0JTIwbXVzZXVtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
@@ -444,7 +426,7 @@
       ]
     },
     {
-      "id": "511",
+      "id": 511,
       "likes": "293",
       "username": "@robertbyersnyc",
       "image": "https://images.unsplash.com/photo-1590700928582-5389e4ded3cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWV0cm9wb2xpdGFuJTIwbXVzZXVtJTIwb2YlMjBhcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
@@ -463,7 +445,7 @@
       ]
     },
     {
-      "id": "512",
+      "id": 512,
       "likes": "7948",
       "username": "@daria_litvinovaa",
       "image": "https://images.unsplash.com/photo-1533735069-24d3be786431?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aXRhbHklMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
@@ -479,7 +461,7 @@
       ]
     },
     {
-      "id": "513",
+      "id": 513,
       "likes": "9422",
       "username": "@daria_litvinovaa",
       "image": "https://images.unsplash.com/photo-1602532769069-0e856a643e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aXRhbHklMjBmb29kfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=900&q=60",
@@ -496,7 +478,7 @@
       ]
     },
     {
-      "id": "514",
+      "id": 514,
       "likes": "8833",
       "username": "@daria_litvinovaa",
       "image": "https://images.unsplash.com/photo-1560303323-0be94016eb5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dHVzY2FueXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=900&q=60",
@@ -512,7 +494,7 @@
       ]
     },
     {
-      "id": "515",
+      "id": 515,
       "likes": "8923",
       "username": "@gabriellamarinooo",
       "image": "https://images.unsplash.com/photo-1624604268332-4dc76f995c48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aXRhbHklMjBsZW1vbnN8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
@@ -527,7 +509,7 @@
       ]
     },
     {
-      "id": "516",
+      "id": 516,
       "likes": "474",
       "username": "@lindseygraham07",
       "image": "https://images.unsplash.com/photo-1517963140-f60c9eceb504?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c29ob3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
@@ -543,7 +525,7 @@
       ]
     },
     {
-      "id": "517",
+      "id": 517,
       "likes": "634",
       "username": "@davide.photo",
       "image": "https://images.unsplash.com/photo-1643209218021-eb50909626d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZmxvcmVuY2V8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
@@ -559,13 +541,13 @@
       ]
     },
     {
-      "id": "518",
+      "id": 518,
       "likes": "634",
       "username": "@davide.photo",
       "image": "https://images.unsplash.com/photo-1578655346479-43374d29a412?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c29ob3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
       "coordinates": {
-        "lat": "40.7128",
-        "lng": "-74.0060"
+        "lat": 40.7128,
+        "lng": -74.006
       },
       "location": "Florence",
       "categories": [
@@ -575,7 +557,7 @@
       ]
     },
     {
-      "id": "519",
+      "id": 519,
       "likes": "634",
       "username": "@nyc_foodie",
       "image": "https://images.unsplash.com/photo-1586147210169-4f248d3a4696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
@@ -589,7 +571,7 @@
       ]
     },
     {
-      "id": "520",
+      "id": 520,
       "likes": "634",
       "username": "@lindseygraham07",
       "image": "https://images.unsplash.com/photo-1638073309721-8edc84e4e061?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2714&q=80",
