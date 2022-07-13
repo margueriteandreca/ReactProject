@@ -4,9 +4,8 @@ import FavoritedPosts from "./FavoritedPosts";
 import ProfileInfo from "./ProfileInfo";
 import "../MyProfile.css"
 
-function MyProfile({photoLocationToMap}) {
+function MyProfile({photoLocationToMap, favorites, setFavorites}) {
     const [photos, setPhotos] = useState([])
-    const [favorites, setFavorites] = useState([])
     const [profileInfo, setProfileInfo] = useState([])
     const [isMyPhotos, setIsMyPhotos] = useState(true)
 

@@ -12,13 +12,24 @@ import {GoogleMap, useLoadScript, Marker} from "@react-google-maps/api"
 
 function App() {
     const [location, setLocation] = useState("New York City")
+    const [coordinates, setCoordinates] = useState({lat: 40.7128, lng: -74.0060});
+    const [favorites, setFavorites] = useState([])
 
-    function photoLocationToMap(location) {
-        setLocation(location);
+    // function savingLike(isLiked) {
+    //     setLikedStatus(isLiked)
+    // }
+
+    
+
+
+    function photoLocationToMap(coordinates) {
+        // setLocation(location);
+        setCoordinates(coordinates)
+        console.log(coordinates)
     }
 
 
-    const { isLoaded } = useLoadScript({googleMapsApiKey: ""});
+    const { isLoaded } = useLoadScript({googleMapsApiKey: "AIzaSyAllOt_OfWxDIIvWRAkyegaSKiuadrRmYw"});
 
     if (!isLoaded) {
         return <h3>Loading...</h3>
@@ -31,16 +42,16 @@ return (
       <NavBar />
       <Switch>
           <Route exact path="/">
-              <HomeFeed />
+              <HomeFeed favorites={favorites} setFavorites={setFavorites}/>
           </Route>
           <Route path="/explore">
-              <Explore />
+              <Explore photoLocationToMap={photoLocationToMap}/>
           </Route>
           <Route path="/map">
-              <Map />
+              <Map coordinates={coordinates} setCoordinates={setCoordinates}/>
           </Route>
           <Route path="/myprofile">
-              <MyProfile photoLocationToMap={photoLocationToMap}/>
+              <MyProfile photoLocationToMap={photoLocationToMap} favorites={favorites} setFavorites={setFavorites}/>
           </Route>
           <Route path="/*">
               <h1>You must be lost...</h1>

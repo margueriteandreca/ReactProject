@@ -10,7 +10,8 @@ function ProfilePhoto({photo, photoLocationToMap}) {
 
     function handleClick() {
         console.log("Clicked location")
-        photoLocationToMap(photo.location)
+        // photoLocationToMap(photo.location)
+        photoLocationToMap(photo.coordinates)
         history.push("/map")
         
     

@@ -4,14 +4,23 @@
 import MyPhotos from "./components/MyPhotos";
 
 
-function discoverabilityExplore() {
+function discoverabilityExplore({photos}) {
     console.log("hi")
-    MyPhotos.forEach(photo => { 
+    photos.forEach(photo => { 
         switch(photo.category) {
-            case x:
+            case "beach":
             // code block
             break;
-            case y:
+            case "swimming":
+            // code block
+            break;
+            case "swimming":
+            // code block
+            break;
+            case "swimming":
+            // code block
+            break;
+            case "swimming":
             // code block
             break;
             default:

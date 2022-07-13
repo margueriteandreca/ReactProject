@@ -3,7 +3,7 @@ import FeedPhotosContainer from "./FeedPhotosContainer";
 import "../Feed.css"
 
 
-function HomeFeed() {
+function HomeFeed(favorites, setFavorites) {
     const [feed, setFeed] = useState([])
 
     useEffect( () => {
@@ -17,7 +17,7 @@ function HomeFeed() {
 
     return (
         <div id="homefeed-container">
-            <FeedPhotosContainer feed={feed}/>
+            <FeedPhotosContainer feed={feed} favorites={favorites} setFavorites={setFavorites}/>
             
         </div>
     )

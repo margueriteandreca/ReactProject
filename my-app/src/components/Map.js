@@ -1,11 +1,12 @@
-import React from "react"
+import React, { useMemo } from "react"
 import {useState, useEffect} from "react"
-import { GoogleMap, useLoadScript } from "@react-google-maps/api"
+import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api"
 import "../map.css"
 
 
-function Map({location, setLocation}) {
+function Map({location, setLocation, coordinates, setCoordinates}) {
     const [random, setRandom] = useState([])
+    const center = useMemo(() => ({lat: 44, lng: -80}), []);
 
     useEffect(() => {
         fetch("http://localhost:3001/suggestedimages")
@@ -37,7 +38,10 @@ function Map({location, setLocation}) {
         //     {test} */}
 
         
-        <GoogleMap zoom={10} center={{lat: 44, lng: -80}} mapContainerClassName="map-container"></GoogleMap>
+        <GoogleMap zoom={10} center={coordinates} mapContainerClassName="map-container">
+        <Marker position={coordinates}/>
+
+        </GoogleMap>
       
 
 
