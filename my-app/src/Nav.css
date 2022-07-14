@@ -9,9 +9,14 @@
     margin-bottom: 10px;
     margin-left: 30px;
     margin-right: 30px;
+    transition: .3s ease-in-out;
 }
 
 #nav-bar button {
     border: none;
     background-color: white;
+}
+
+.nav-buttons:hover {
+    opacity: .4;
 }

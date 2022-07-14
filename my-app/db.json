@@ -98,7 +98,7 @@
       "profilepic": "https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       "postsNumber": "203",
       "followers": "3479",
-      "following": "698",
+      "following": [],
       "bio": "Living the dream",
       "favorited_categories": ["beach", "history"],
       "images": [
@@ -196,56 +196,87 @@
     }
   ],
   "favorited_content": [
+   {
+      "id": 101,
+      "likes": "389",
+      "username": "@jasonwalkerphotography",
+      "image": "https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg",
+      "location": "Maldives",
+      "categories": [
+        "beach",
+        "surfing"
+      ]
+    },
     {
-      "id": 1,
-      "name": "Chelsea",
-      "username": "@chelsea_fellows",
-      "location": "London",
-      "catgories": [
-        "shopping",
+      "id": 102,
+      "likes": "355",
+      "username": "@emiliedavis",
+      "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+      "location": "Buenos Aires",
+      "categories": [
+        "food",
         "sightseeing",
-        "photography"
-      ],
-      "coordinates": {
-        "lat": 51.5072,
-        "lng": 0.1276
-      },
-      "likes": 68,
-      "image": "https://images.unsplash.com/photo-1587971315632-20288867c7bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        "urban"
+      ]
     },
     {
-      "id": 2,
-      "name": "Amirah",
-      "username": "@ami1995",
-      "location": "Madrid",
-      "catgories": [
-        "clubbing, museums, food"
-      ],
-      "coordinates": {
-        "lat": 40.4168,
-        "lng": 3.7038
-      },
-      "likes": 10,
-      "image": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+      "id": 103,
+      "likes": "8975",
+      "username": "@danielmaslowski",
+      "image": "https://images.unsplash.com/photo-1584994799922-51a28a405749?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "location": "New York City",
+      "categories": [
+        "museums",
+        "sightseeing",
+        "art",
+        "architecture"
+      ]
     },
     {
-      "id": 5,
-      "name": "Leah",
-      "username": "@LDavis",
-      "location": "Colorado",
-      "catgories": [
+      "id": 104,
+      "likes": "873",
+      "username": "@diegosilva.br",
+      "image": "https://images.unsplash.com/photo-1539966797022-ead5d7d43db0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJpbyUyMGRlJTIwamFuZWlyb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "location": "Rio de Janeiro",
+      "coordinates": {
+        "lat": -22.9068,
+        "lng": 43.1729
+      },
+      "categories": [
+        "beach",
+        "mountains",
+        "sightseeing"
+      ]
+    },
+    {
+      "id": 105,
+      "likes": "564",
+      "username": "@allenjames08",
+      "image": "https://images.unsplash.com/photo-1507494866709-e881bd11477e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHRyZWVzfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "location": "Sinaia",
+      "categories": [
+        "nature",
+        "hiking"
+      ]
+    },
+    {
+      "id": 106,
+      "likes": "4692",
+      "username": "@florian.mueller",
+      "image": "https://images.unsplash.com/photo-1562499247-7b4b540eadcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29hdHN8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "location": "Zermatt",
+      "categories": [
+        "nature",
+        "wildlife",
         "hiking",
-        "skiing",
-        "shopping"
-      ],
-      "likes": 43,
-      "image": "https://cdn.pixabay.com/photo/2017/08/06/12/06/people-2591874__340.jpg"
+        "mountains"
+      ]
     }
   ],
+
   "suggestedimages": [
     {
       "id": 501,
-      "name": "Jerry",
       "likes": "8733",
       "username": "@h.ahmed.photo",
       "image": "https://images.unsplash.com/photo-1547005327-ef75a6961556?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmVhY2h8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
@@ -261,7 +292,6 @@
     },
     {
       "id": 502,
-      "name": "Jerry",
       "likes": "402",
       "username": "@matteo.it",
       "image": "https://images.unsplash.com/photo-1591467380820-86b050dcaa75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cm9tYXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=800&q=60",
@@ -279,7 +309,6 @@
     },
     {
       "id": 503,
-      "name": "Jerry",
       "likes": "873",
       "username": "@jean.pierre.photos",
       "image": "https://images.unsplash.com/photo-1584266337361-679ae80c8519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGFyaXN8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
@@ -297,7 +326,6 @@
     },
     {
       "id": 504,
-      "name": "Jerry",
       "likes": "249",
       "username": "@jean.pierre.photos",
       "image": "https://images.unsplash.com/photo-1546237769-6f84ec1a512a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3JvaXNzYW50fGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
@@ -314,7 +342,6 @@
     },
     {
       "id": 505,
-      "name": "Jerry",
       "likes": "4784",
       "username": "@",
       "image": "https://images.unsplash.com/photo-1554797589-7241bb691973?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dG9reW98ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
@@ -331,7 +358,6 @@
     },
     {
       "id": 506,
-      "name": "Jerry",
       "likes": "873",
       "username": "@best_japan_photos",
       "image": "https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bXQlMjBmdWppfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
@@ -349,7 +375,6 @@
     },
     {
       "id": 506,
-      "name": "Jerry",
       "likes": "873",
       "username": "@diego.g.29",
       "image": "https://images.unsplash.com/photo-1579282240050-352db0a14c21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2F1ZGl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
@@ -367,7 +392,6 @@
     },
     {
       "id": 507,
-      "name": "Jerry",
       "likes": "2930",
       "username": "@kennethjames",
       "image": "https://images.unsplash.com/photo-1606298246186-08868ab77562?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGVuZ2xhbmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
@@ -384,7 +408,6 @@
     },
     {
       "id": 508,
-      "name": "Jerry",
       "likes": "246",
       "username": "@visit.indonesia",
       "image": "https://images.unsplash.com/photo-1576018754442-97aae7e30f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
@@ -400,7 +423,6 @@
     },
     {
       "id": 509,
-      "name": "Jerry",
       "likes": "29381",
       "username": "@alessio_bachetti",
       "image": "https://images.unsplash.com/photo-1569314516237-411aa03c2a44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
@@ -419,7 +441,6 @@
     },
     {
       "id": 510,
-      "name": "Jerry",
       "likes": "293",
       "username": "@robertbyersnyc",
       "image": "https://images.unsplash.com/photo-1512075936709-bc355655b4f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWV0JTIwbXVzZXVtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
@@ -439,7 +460,6 @@
     },
     {
       "id": 511,
-      "name": "Jerry",
       "likes": "293",
       "username": "@robertbyersnyc",
       "image": "https://images.unsplash.com/photo-1590700928582-5389e4ded3cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWV0cm9wb2xpdGFuJTIwbXVzZXVtJTIwb2YlMjBhcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
@@ -459,7 +479,6 @@
     },
     {
       "id": 512,
-      "name": "Jerry",
       "likes": "7948",
       "username": "@daria_litvinovaa",
       "image": "https://images.unsplash.com/photo-1533735069-24d3be786431?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aXRhbHklMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
@@ -476,7 +495,6 @@
     },
     {
       "id": 513,
-      "name": "Jerry",
       "likes": "9422",
       "username": "@daria_litvinovaa",
       "image": "https://images.unsplash.com/photo-1602532769069-0e856a643e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aXRhbHklMjBmb29kfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=900&q=60",
@@ -494,7 +512,6 @@
     },
     {
       "id": 514,
-      "name": "Jerry",
       "likes": "8833",
       "username": "@daria_litvinovaa",
       "image": "https://images.unsplash.com/photo-1560303323-0be94016eb5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dHVzY2FueXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=900&q=60",
@@ -511,7 +528,6 @@
     },
     {
       "id": 515,
-      "name": "Jerry",
       "likes": "8923",
       "username": "@gabriellamarinooo",
       "image": "https://images.unsplash.com/photo-1624604268332-4dc76f995c48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aXRhbHklMjBsZW1vbnN8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
@@ -527,7 +543,6 @@
     },
     {
       "id": 516,
-      "name": "Jerry",
       "likes": "474",
       "username": "@lindseygraham07",
       "image": "https://images.unsplash.com/photo-1517963140-f60c9eceb504?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c29ob3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
@@ -544,7 +559,6 @@
     },
     {
       "id": 517,
-      "name": "Jerry",
       "likes": "634",
       "username": "@davide.photo",
       "image": "https://images.unsplash.com/photo-1643209218021-eb50909626d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZmxvcmVuY2V8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
@@ -561,7 +575,6 @@
     },
     {
       "id": 518,
-      "name": "Jerry",
       "likes": "634",
       "username": "@davide.photo",
       "image": "https://images.unsplash.com/photo-1578655346479-43374d29a412?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c29ob3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60",
@@ -578,7 +591,6 @@
     },
     {
       "id": 519,
-      "name": "Jerry",
       "likes": "634",
       "username": "@nyc_foodie",
       "image": "https://images.unsplash.com/photo-1586147210169-4f248d3a4696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
@@ -593,7 +605,6 @@
     },
     {
       "id": 520,
-      "name": "Jerry",
       "likes": "634",
       "username": "@lindseygraham07",
       "image": "https://images.unsplash.com/photo-1638073309721-8edc84e4e061?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2714&q=80",
@@ -608,5 +619,176 @@
         "urban"
       ]
     }
+  ],
+
+  "suggestedfollowers": [
+    {
+      "id": 701,
+      "name": "Angelina Mikhailova",
+      "username": "@angelina_m_98"
+    },
+    {
+      "id": 702,
+      "name": "Aleksander Noawk",
+      "username": "@its_alex_travels"
+    },
+    {
+      "id": 703,
+      "name": "Alissa Stenta",
+      "username": "@alissastenta.uk"
+    },
+    {
+      "id": 704,
+      "name": "Aimee Murphy",
+      "username": "@sarahlovestravel"
+    },
+    {
+      "id": 705,
+      "name": "Brandon Johnson",
+      "username": "@brandon.m.johnson"
+    },
+    {
+      "id": 706,
+      "name": "Bella O'Connor",
+      "username": "@bella.in.nyc"
+    },
+    {
+      "id": 706,
+      "name": "Beatrice Toma",
+      "username": "@beatrice_toma_ro"
+    },
+    {
+      "id": 707,
+      "name": "Catherine Doyle",
+      "username": "@catiedoyle"
+    },
+    {
+      "id": 708,
+      "name": "Connor Miller",
+      "username": "@conn0rMillerr"
+    },
+    {
+      "id": 709,
+      "name": "Candance Smith",
+      "username": "@candysmithtravel"
+    },
+    {
+      "id": 710,
+      "name": "Diogo Rodrigues",
+      "username": "@diogo.rodrigues.br"
+    },
+    {
+      "id": 711,
+      "name": "Daniel Garcia",
+      "username": "@d_garcia__"
+    },
+    {
+      "id": 712,
+      "name": "Desiree Johsnon",
+      "username": "@desiree_j_"
+    },
+    {
+      "id": 713,
+      "name": "Erica Lin",
+      "username": "@ericaaaa"
+    },
+    {
+      "id": 714,
+      "name": "Enzo Bianchi",
+      "username": "@EnzoBianchi_it"
+    },
+    {
+      "id": 715,
+      "name": "Enrique Hernandez",
+      "username": "@enrique.hernandez08"
+    },
+    {
+      "id": 716,
+      "name": "Fernando Gomes",
+      "username": "@its_fehh_g"
+    },
+    {
+      "id": 717,
+      "name": "Emma Moore",
+      "username": "@travelwithemma"
+    },
+    {
+      "id": 718,
+      "name": "Elise Turner",
+      "username": "@elise__t"
+    },
+    {
+      "id": 719,
+      "name": "Fabienne Blanchet",
+      "username": "@fab_ienne"
+    },
+    {
+      "id": 720,
+      "name": "Felix Miller",
+      "username": "@felix_photo_de"
+    },
+    {
+      "id": 721,
+      "name": "Gabriel Souza",
+      "username": "@gabrrieeelll_br"
+    },
+    {
+      "id": 722,
+      "name": "Greta Vlasceanu",
+      "username": "@greta_vlas__"
+    },
+    {
+      "id": 723,
+      "name": "Hayley Kim",
+      "username": "@its_hayley_kim"
+    },
+    {
+      "id": 724,
+      "name": "Harry Edwards",
+      "username": "@harry.edwards.uk"
+    },
+    {
+      "id": 725,
+      "name": "Ildiko Nagy",
+      "username": "@ildikonagyhu"
+    },
+    {
+      "id": 726,
+      "name": "Johnathan Perez",
+      "username": "@jonathan.p.nyc"
+    },
+    {
+      "id": 727,
+      "name": "Jennie Park",
+      "username": "@jennnnieee_park"
+    },
+    {
+      "id": 728,
+      "name": "Jaylene Martinez",
+      "username": "@jaylene_nyc"
+    },
+    {
+      "id": 729,
+      "name": "Katelyn Smith",
+      "username": "@katie_smith"
+    },
+    {
+      "id": 730,
+      "name": "Landon Jones",
+      "username": "@landon.j.38"
+    },
+    {
+      "id": 731,
+      "name": "Lindsey Reed",
+      "username": "@lindseyreed_"
+    }
+
+    
+    
+    
+
   ]
+  
 }
+
+

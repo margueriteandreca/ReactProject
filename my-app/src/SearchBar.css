@@ -1,0 +1,10 @@
+.dropdown-results {
+    background-color: whitesmoke;
+    
+}
+
+
+.dropdown-results > *{
+    background-color: whitesmoke;
+    font-size: smaller;
+}

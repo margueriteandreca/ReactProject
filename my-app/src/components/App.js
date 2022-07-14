@@ -13,15 +13,13 @@ import {GoogleMap, useLoadScript, Marker} from "@react-google-maps/api"
 
 function App() {
     // eslint-disable-next-line
-    const [location, setLocation] = useState("New York City")
+    // const [location, setLocation] = useState("New York City")
     const [coordinates, setCoordinates] = useState({lat: 40.7128, lng: -74.0060});
     const [favorites, setFavorites] = useState([]);
     const [myProfile, setMyProfile] = useState([]);
     const [suggestions, setSuggestions] = useState([])
+    
 
-    // function savingLike(isLiked) {
-    //     setLikedStatus(isLiked)
-    // }
 
     useEffect(() => {
         fetch(`http://localhost:3001/myprofile`)
@@ -56,18 +54,23 @@ function App() {
     let mySuggestions = []
     
     suggestions.forEach((img) => {
-        mySuggestions = [...mySuggestions, img.categories]
+        mySuggestions.push(img.categories);
     });
+
+   
+
+
+
 
     return (
     <>
         <NavBar />
         <Switch>
             <Route exact path="/">
-                <HomeFeed favorites={favorites} setFavorites={setFavorites}/>
+                <HomeFeed favorites={favorites} setFavorites={setFavorites} />
             </Route>
             <Route path="/explore">
-                <Explore photoLocationToMap={photoLocationToMap} myProfile={myProfile} posSuggestions={suggestions} mySuggestions={mySuggestions} />
+                <Explore photoLocationToMap={photoLocationToMap} myProfile={myProfile} suggestions={suggestions} mySuggestions={mySuggestions} />
             </Route>
             <Route path="/map">
                 <Map coordinates={coordinates} setCoordinates={setCoordinates}/>

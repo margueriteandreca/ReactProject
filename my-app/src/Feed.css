@@ -1,4 +1,4 @@
-#homeeed-container {
+#homefeed-container {
     background-color: whitesmoke;
 }
 
@@ -15,14 +15,28 @@
     flex-direction: column;
 }
 
+#feed-photo-container {
+    width: 450px;
+    height: 500px;
+    background-color: aquamarine;
+    display: flex;
+    /* position: relative; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+   
+    
 
-/* #feed-photo-container {
+}
 
-} */
 
 #feed-photo-container img {
-    width: 450px;
-    /* height: 300px; */
+    width: 100%;
+    height: 100%;
+    display: block;
+    flex-direction: row;
 }
 
 #suggested-container {
@@ -43,4 +57,51 @@
 .follower-name p {
     margin: 0px;
     
+}
+
+#photo-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 500px;
+    /* height: 300px;  */
+    margin: auto;
+    font-size: small;
+    text-align: center;
+    transition: .5s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    /* top: -100%; 
+    left: 0%; */
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+#photo-details:hover {
+    opacity: 1;
+}
+
+
+#photo-details > * {
+    transform: translateY(20px);
+    transition: transform 0.25s
+}
+
+#photo-details:hover > * {
+    transform: translateY(0);
+    cursor: pointer;
+    
+}
+
+#location {
+    transition: .6s;
+
+}
+
+#location:hover {
+    letter-spacing: 1px;
+    color: rgb(103, 103, 103);
+
 }

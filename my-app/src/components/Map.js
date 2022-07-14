@@ -23,22 +23,10 @@ function Map({location, setLocation, coordinates, setCoordinates}) {
 
 
    
-        // const test= random.map(photo => {
-        //     return <img src={photo.image} alt={photo.id}></img>})
 
     return (
         <div id= "map">
-        {/* //     <label for="location">Let's explore</label>
 
-        //     <select name="location" id="location">
-        //     <option value="New York City">{location}</option>
-        //     <option value="London">London</option>
-        //     <option value="Rio de Janeiro">Rio de Janeiro</option>
-        //     <option value="Paris">Paris</option>
-        //     </select>
-
-
-        //     {test} */}
 
         
         <GoogleMap zoom={10} center={coordinates} mapContainerClassName="map-container">
