@@ -242,3 +242,10 @@ body {
   cursor: pointer;
 
 }
+
+#followers-container-pop-up > * {
+  font-size: larger;
+  background-color: whitesmoke;
+
+  
+}

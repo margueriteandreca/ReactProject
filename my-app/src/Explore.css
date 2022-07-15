@@ -109,9 +109,15 @@
   }
   
   .fav-image-container:hover .photoDetails {
-    opacity: 0.6;
+    opacity: 0.9;
   }
   
   .fav-image-container:hover .favImg {
     opacity: 0.4;
+  }
+
+  #location-select {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
   }

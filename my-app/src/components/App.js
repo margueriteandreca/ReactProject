@@ -64,7 +64,7 @@ function App() {
         <NavBar />
         <Switch>
             <Route exact path="/">
-                <HomeFeed favorites={favorites} setFavorites={setFavorites} photoLocationToMap={photoLocationToMap}/>
+                <HomeFeed favorites={favorites} setFavorites={setFavorites} photoLocationToMap={photoLocationToMap} setCoordinates={setCoordinates}/>
             </Route>
             <Route path="/explore">
                 <Explore photoLocationToMap={photoLocationToMap} myProfile={myProfile} suggestions={suggestions} mySuggestions={mySuggestions} />

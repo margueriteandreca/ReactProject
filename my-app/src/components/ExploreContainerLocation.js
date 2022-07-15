@@ -5,7 +5,7 @@ import ProfilePhoto from "./ProfilePhoto";
 import {useState} from "react"
 
 
-function ExploreContainerLocation({suggestions}) {
+function ExploreContainerLocation({suggestions, photoLocationToMap}) {
     const [location, setLocation] = useState("New York City")
 
     console.log(suggestions)
@@ -20,6 +20,7 @@ function ExploreContainerLocation({suggestions}) {
 
     return (
         <div>
+            <div id="select-container">
 
              <label for="location-select">Let's explore</label>
 
@@ -29,8 +30,9 @@ function ExploreContainerLocation({suggestions}) {
                 <option value="Rio de Janeiro">Rio de Janeiro</option>
                 <option value="Paris">Paris</option>
             </select>
+            </div>
             <div className="favBoxesContainer ">
-            {filteredSuggestions.map(suggestion => <ProfilePhoto key={suggestion.id} photo={suggestion} /> )}
+            {filteredSuggestions.map(suggestion => <ProfilePhoto key={suggestion.id} photo={suggestion} photoLocationToMap={photoLocationToMap}/> )}
             </div>
 
         </div>

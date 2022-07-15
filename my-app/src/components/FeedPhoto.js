@@ -4,14 +4,16 @@ import "../ProfilePhoto.css"
 import {useState} from "react"
 import {useHistory} from "react-router-dom"
 
-function FeedPhoto({user, favorites, setFavorites, photoLocationToMap}) {
+function FeedPhoto({user, favorites, setFavorites, photoLocationToMap, setCoordinates}) {
 
 
     let history = useHistory();
 
     function handleClickMap() {
         console.log("Clicked location")
-        photoLocationToMap(user.coordinates)
+        setCoordinates(user.coordinates)
+        // photoLocationToMap(user.coordinates)
+        console.log("FeedPhoto", user.coordinates)
         history.push("/map")
     
     }

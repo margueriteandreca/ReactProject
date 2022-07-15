@@ -3,7 +3,7 @@ import ExplorePhoto from "./ExplorePhoto";
 import ProfilePhoto from "./ProfilePhoto";
 
 
-function ExploreFavoriteContainer({myProfile, suggestions}) {
+function ExploreFavoriteContainer({myProfile, suggestions, photoLocationToMap}) {
 
     const myFavorites = [...myProfile[0].favorited_categories]
 
@@ -17,7 +17,7 @@ function ExploreFavoriteContainer({myProfile, suggestions}) {
 
     function buildComponent(suggestion){
         //console.log("TO BUILD: ", suggestion);
-        return <ProfilePhoto key={suggestion.id} photo={suggestion} />
+        return <ProfilePhoto key={suggestion.id} photo={suggestion} photoLocationToMap={photoLocationToMap}/>
     };
 
 

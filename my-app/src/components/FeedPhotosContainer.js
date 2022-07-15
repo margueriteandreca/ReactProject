@@ -3,10 +3,10 @@ import FeedPhoto from "./FeedPhoto";
 import SuggestedFollowing from "./SuggestedFollowing";
 import "../Feed.css"
 
-function FeedPhotosContainer({feed, favorites, setFavorites, photoLocationToMap}) {
+function FeedPhotosContainer({feed, favorites, setFavorites, photoLocationToMap, setCoordinates}) {
 
     console.log("FEED: ", feed)
-    const mappedFeedPhotos = feed.map(user => <FeedPhoto key={user.id} user={user} favorites={favorites} setFavorites={setFavorites} photoLocationToMap={photoLocationToMap}/>)
+    const mappedFeedPhotos = feed.map(user => <FeedPhoto key={user.id} user={user} favorites={favorites} setFavorites={setFavorites} photoLocationToMap={photoLocationToMap} setCoordinates={setCoordinates}/>)
 
 
     return (

@@ -27,8 +27,8 @@ function Explore({photoLocationToMap, myProfile, suggestions, mySuggestions}) {
                 <button className='navBtn' onClick={handleLocationClick}>Locations</button>
         </div>
             {isExploreFavorites ? 
-            <ExploreFavoriteContainer myProfile={myProfile} suggestions={suggestions} mySuggestions={mySuggestions} /> :
-            <ExploreContainerLocation  suggestions={suggestions}/> }
+            <ExploreFavoriteContainer myProfile={myProfile} suggestions={suggestions} mySuggestions={mySuggestions} photoLocationToMap={photoLocationToMap} /> :
+            <ExploreContainerLocation  suggestions={suggestions} photoLocationToMap={photoLocationToMap}/> }
             
             
         </>

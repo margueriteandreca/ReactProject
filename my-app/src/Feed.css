@@ -51,12 +51,18 @@
 
 .follower-name {
     font-size: smaller;
-    background-color: white;
+    background-color: transparent;
 
 }
 
+/* .follower-name > * {
+    background-color: transparent;
+
+} */
+
 .follower-name p {
     margin: 0px;
+    background-color: transparent;
     
 }
 
@@ -119,6 +125,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: transparent;
 }
 
 #name {

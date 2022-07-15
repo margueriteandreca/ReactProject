@@ -3,7 +3,7 @@ import FeedPhotosContainer from "./FeedPhotosContainer";
 import "../Feed.css"
 
 
-function HomeFeed(favorites, setFavorites, photoLocationToMap) {
+function HomeFeed({favorites, setFavorites, photoLocationToMap, setCoordinates}) {
     const [feed, setFeed] = useState([])
 
     useEffect( () => {
@@ -17,7 +17,7 @@ function HomeFeed(favorites, setFavorites, photoLocationToMap) {
 
     return (
         <div id="homefeed-container">
-            <FeedPhotosContainer feed={feed} favorites={favorites} setFavorites={setFavorites} photoLocationToMap={photoLocationToMap}/>
+            <FeedPhotosContainer feed={feed} favorites={favorites} setFavorites={setFavorites} photoLocationToMap={photoLocationToMap} setCoordinates={setCoordinates}/>
             
         </div>
     )
