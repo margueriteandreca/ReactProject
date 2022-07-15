@@ -2,9 +2,22 @@ import React from "react";
 import "../Feed.css"; 
 import "../ProfilePhoto.css"
 import {useState} from "react"
+import {useHistory} from "react-router-dom"
 
-function FeedPhoto({user, favorites, setFavorites}) {
+function FeedPhoto({user, favorites, setFavorites, photoLocationToMap}) {
+
     const [isLiked, setIsLiked] = useState(false)
+
+    console.log(user.coordinates)
+
+    let history = useHistory();
+
+    function handleClickMap() {
+        console.log("Clicked location")
+        photoLocationToMap(user.coordinates)
+        history.push("/map")
+    
+    }
 
 
     console.log("USER: ", user);
@@ -33,27 +46,17 @@ function FeedPhoto({user, favorites, setFavorites}) {
 
     function handleClick() {
         setIsLiked(true)
-
     }
 
     likedtoFavorites(user);
         
-    
 
-    // function settingGlobalLike() {
-    //     savingLike(isLiked)
-    //     // likedtoFavorites(user)
-
-    // }
-
-    // const {id, image, categories} = user
-    //console.log(user)
     return (
         <div id="feed-photo-container">
            <img className="profile-images" src={user.image} alt="profile-avatar" />
            <div id="photo-details">
            <h3 className="description">{user.username}</h3>
-            <h3 id="location" className="description">{user.location}</h3>
+            <h3 id="location" className="description" onClick={handleClickMap}>{user.location}</h3>
             <h3 className="description" onClick={handleClick}>{`♥ ${user.likes} likes`}</h3>
         </div>
         </div>

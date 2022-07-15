@@ -1,28 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../MyProfile.css"
 
 
-function ProfileInfo({name, username, profilepic, followers, following, bio, handleFavesClick, handleMyPhotosClick}) {
+function ProfileInfo({name, username, profilepic, followers, following, bio, handleFavesClick, handleMyPhotosClick, handleClickPopUp, fetchedFollowers}) {
+    
 
-    console.log(followers, following)
-
- 
     
 
     return (
         <div id="info-container">
             <div id="profile-div">
                 <img src={profilepic} alt={name} id="profile-pic" />
-                <p>{name}</p>
-                <p>{username}</p>
-                <div id="followers-container">
-                    <span className="followers">{`${followers} followers`}</span>
-                    <span className="followers">{`${following} following`}</span>
-                </div>
+                <div id="profile-info">
+                    <div id="name-only">
+                        <p>{name}</p>
+                        <p>•</p>
+                        <p>{username}</p>
+                    </div>
+                    <div id="followers-container">
+                        <span className="followers">{`${followers} followers`}</span>
+                        <span id="followingspan" className="followers" onClick={handleClickPopUp}>{`${fetchedFollowers.length} following`}</span>
+                    </div>
                     <p>{bio}</p>
+                    </div>
                 
-
-
             </div>
             <div id="buttons-div">
                 <button className="profilebutton" onClick={handleMyPhotosClick}>My Photos</button>

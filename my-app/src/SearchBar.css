@@ -5,6 +5,16 @@
 
 
 .dropdown-results > *{
-    background-color: whitesmoke;
+    background-color: white;
     font-size: smaller;
+}
+
+#search {
+    margin-top: 15px;
+    width: 295px;
+    height: 25px;
+    border-color: rgb(184, 184, 184);
+    border-radius: 5px;
+    border-style: solid;
+
 }

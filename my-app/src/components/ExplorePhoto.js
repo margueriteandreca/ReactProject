@@ -24,9 +24,6 @@ function ExplorePhoto({image, username, location, coordinates, photoLocationToMa
             <div className='photoDetails'>
                 <h3>{username}</h3>
                 <h3 id="location" className="description" onClick={handleClick}>{location}</h3>
-                {/* {fav.categories.map((cat) => {
-                    return <h5>{cat.toUpperCase()}</h5>
-                })} */}
             </div>
         </div>
 

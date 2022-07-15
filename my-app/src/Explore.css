@@ -109,7 +109,7 @@
   }
   
   .fav-image-container:hover .photoDetails {
-    opacity: 0.9;
+    opacity: 0.6;
   }
   
   .fav-image-container:hover .favImg {

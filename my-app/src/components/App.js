@@ -12,8 +12,6 @@ import {GoogleMap, useLoadScript, Marker} from "@react-google-maps/api"
 
 
 function App() {
-    // eslint-disable-next-line
-    // const [location, setLocation] = useState("New York City")
     const [coordinates, setCoordinates] = useState({lat: 40.7128, lng: -74.0060});
     const [favorites, setFavorites] = useState([]);
     const [myProfile, setMyProfile] = useState([]);
@@ -34,7 +32,6 @@ function App() {
     }, []);
 
     function photoLocationToMap(coordinates) {
-        // setLocation(location);
         setCoordinates(coordinates)
         console.log(coordinates)
     }
@@ -67,7 +64,7 @@ function App() {
         <NavBar />
         <Switch>
             <Route exact path="/">
-                <HomeFeed favorites={favorites} setFavorites={setFavorites} />
+                <HomeFeed favorites={favorites} setFavorites={setFavorites} photoLocationToMap={photoLocationToMap}/>
             </Route>
             <Route path="/explore">
                 <Explore photoLocationToMap={photoLocationToMap} myProfile={myProfile} suggestions={suggestions} mySuggestions={mySuggestions} />

@@ -16,9 +16,9 @@
 }
 
 #feed-photo-container {
+    margin-bottom: 10px;
     width: 450px;
     height: 500px;
-    background-color: aquamarine;
     display: flex;
     /* position: relative; */
     flex-wrap: wrap;
@@ -42,7 +42,7 @@
 #suggested-container {
     background-color: white;
     width: 300px;
-    height: 400px;
+    height: 450px;
     margin-top: 50px;
     border-radius: 10px;
     padding: 15px;
@@ -51,6 +51,7 @@
 
 .follower-name {
     font-size: smaller;
+    background-color: white;
 
 }
 
@@ -103,5 +104,53 @@
 #location:hover {
     letter-spacing: 1px;
     color: rgb(103, 103, 103);
+
+}
+
+#follower-image {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+
+.whole-follower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#name {
+    font-weight: bold;
+}
+
+#add-follower {
+    border: none;
+    background-color: white;
+}
+
+#add-follower:hover {
+    opacity: .5;
+}
+
+#image-and-info {
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#followers-add-padding {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 
 }
