@@ -13,7 +13,7 @@ function ProfileInfo({name, username, profilepic, followers, following, bio, han
                 <img src={profilepic} alt={name} id="profile-pic" />
                 <div id="profile-info">
                     <div id="name-only">
-                        <p>{name}</p>
+                        <p id="name-bold">{name}</p>
                         <p>•</p>
                         <p>{username}</p>
                     </div>

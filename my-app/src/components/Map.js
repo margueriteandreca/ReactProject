@@ -6,9 +6,7 @@ import "../map.css"
 
 // eslint-disable-next-line
 function Map({location, setLocation, coordinates, setCoordinates}) {
-    // eslint-disable-next-line
     const [random, setRandom] = useState([])
-    // eslint-disable-next-line
     const center = useMemo(() => ({lat: 44, lng: -80}), []);
 
     useEffect(() => {
@@ -22,24 +20,14 @@ function Map({location, setLocation, coordinates, setCoordinates}) {
     }, [])
 
 
-   
-
     return (
         <div id= "map">
 
-
-        
         <GoogleMap zoom={10} center={coordinates} mapContainerClassName="map-container">
         <Marker position={coordinates}/>
 
         </GoogleMap>
       
-
-
-
-
-
-
             
         </div>
 

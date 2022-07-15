@@ -233,6 +233,10 @@ body {
   margin: 5px;
 }
 
+#name-bold  {
+  font-weight: bold;
+}
+
 #followingspan:hover {
   opacity: .5;
   cursor: pointer;

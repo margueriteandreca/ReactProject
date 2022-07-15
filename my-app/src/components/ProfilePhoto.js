@@ -14,10 +14,13 @@ function ProfilePhoto({photo, photoLocationToMap}) {
         // photoLocationToMap(photo.location)
         photoLocationToMap(photo.coordinates)
         history.push("/map")
-        
     
     }
 
+
+
+    console.log(photo.coordinates)
+    
     return (
         <div className="photo-div">
                 <img className="profile-images" src={photo.image} alt="test"/>

@@ -6,9 +6,6 @@ import {useHistory} from "react-router-dom"
 
 function FeedPhoto({user, favorites, setFavorites, photoLocationToMap}) {
 
-    const [isLiked, setIsLiked] = useState(false)
-
-    console.log(user.coordinates)
 
     let history = useHistory();
 
@@ -18,6 +15,11 @@ function FeedPhoto({user, favorites, setFavorites, photoLocationToMap}) {
         history.push("/map")
     
     }
+
+
+    const [isLiked, setIsLiked] = useState(false)
+
+    console.log(user.coordinates)
 
 
     console.log("USER: ", user);
