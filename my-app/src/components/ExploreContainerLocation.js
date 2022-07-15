@@ -19,7 +19,7 @@ function ExploreContainerLocation({suggestions, photoLocationToMap}) {
     const filteredSuggestions = suggestions.filter(suggestion => suggestion.location === location)
 
     return (
-        <div>
+        <div >
             <div id="select-container">
 
              <label for="location-select">Let's explore</label>
@@ -31,7 +31,7 @@ function ExploreContainerLocation({suggestions, photoLocationToMap}) {
                 <option value="Paris">Paris</option>
             </select>
             </div>
-            <div className="favBoxesContainer ">
+            <div className="photos-container" >
             {filteredSuggestions.map(suggestion => <ProfilePhoto key={suggestion.id} photo={suggestion} photoLocationToMap={photoLocationToMap}/> )}
             </div>
 

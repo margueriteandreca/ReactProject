@@ -117,7 +117,33 @@
   }
 
   #location-select {
+    margin-left: 10px;;
     width: 200px;
     height: 30px;
     border-radius: 5px;
   }
+
+ #profile-container {
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ #my-explore {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+ #select-container {
+  justify-self: center;
+  width: 50%;
+  margin-left: 40px;
+  margin-bottom: 10px;
+
+ }
+
+ #to-center {
+  display: flex;
+  justify-content: center;
+ }

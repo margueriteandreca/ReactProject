@@ -9,6 +9,7 @@ import { Switch, Route } from "react-router-dom";
 import {useState, useEffect} from "react";
 // eslint-disable-next-line
 import {GoogleMap, useLoadScript, Marker} from "@react-google-maps/api"
+import { CSSTransition, TransitionGroup } from "react-transition-group"
 
 
 function App() {
@@ -62,6 +63,13 @@ function App() {
     return (
     <>
         <NavBar />
+        <Route render={({location}) => (
+            <TransitionGroup>
+            <CSSTransition 
+            key={location.key}
+            timeout={300}
+            classNames="fade"
+            >
         <Switch>
             <Route exact path="/">
                 <HomeFeed favorites={favorites} setFavorites={setFavorites} photoLocationToMap={photoLocationToMap} setCoordinates={setCoordinates}/>
@@ -79,6 +87,9 @@ function App() {
                 <h1>You must be lost...</h1>
             </Route>
         </Switch>
+        </CSSTransition>
+        </TransitionGroup>
+        )}/>
     </>
     );
 }

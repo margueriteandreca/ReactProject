@@ -27,7 +27,7 @@
       ],
       "coordinates": {
         "lat": 40.4168,
-        "lng": 3.7038
+        "lng": -3.7038
       },
       "likes": 104,
       "image": "https://images.unsplash.com/photo-1563295806-c0ce59d3adc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFkcmlkfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60"
@@ -69,6 +69,9 @@
       "name": "Leah",
       "username": "@LDavis",
       "location": "Colorado",
+      "coordinates": {
+        "lat": 39.5501,
+        "lng": -105.7821},
       "catgories": [
         "hiking",
         "skiing",
@@ -82,6 +85,9 @@
       "name": "Jason",
       "username": "@jasonwalkerphotography",
       "location": "Maldives",
+      "coordinates": {
+        "lat": 3.2028,
+        "lng": 73.2207},
       "catgories": [
         "beach"
       ],
@@ -752,6 +758,63 @@
       "categories": [
         "beach"
       ]
+    },
+    {
+      "id": 529,
+      "likes": "2932",
+      "username": "@robertbyersnyc",
+      "image": "https://images.unsplash.com/photo-1557802447-b873bbc60dfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YnJvb2tseW58ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "coordinates": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "location": "New York City",
+      "categories": [
+        "museum",
+        "art",
+        "architecture",
+        "culture",
+        "history",
+        "sightseeing"
+      ]
+    },
+    {
+      "id": 530,
+      "likes": "293",
+      "username": "@robertbyersnyc",
+      "image": "https://images.unsplash.com/photo-1562098291-c00dbb4ef4f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnJvb2tseW58ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "coordinates": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "location": "New York City",
+      "categories": [
+        "museum",
+        "art",
+        "architecture",
+        "culture",
+        "history",
+        "sightseeing"
+      ]
+    },
+    {
+      "id": 531,
+      "likes": "293",
+      "username": "@robertbyersnyc",
+      "image": "https://images.unsplash.com/photo-1600582138035-ad3eb0814c5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnJvb2tseW58ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "coordinates": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "location": "New York City",
+      "categories": [
+        "museum",
+        "art",
+        "architecture",
+        "culture",
+        "history",
+        "sightseeing"
+      ]
     }
   ],
   "suggestedfollowers": [
@@ -956,154 +1019,40 @@
   ],
   "following": [
     {
-      "name": "Aimee Murphy",
-      "username": "@sarahlovestravel",
-      "image": "https://images.unsplash.com/photo-1654536053136-594f8ce0ca1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=845&q=80",
-      "id": 705
+      "name": "Jessica Zheng",
+      "username": "@itsjessicaz",
+      "image": "https://images.unsplash.com/photo-1518577915332-c2a19f149a75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNoaW5lc2UlMjBnaXJsfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "id": 730
     },
     {
-      "name": "Alissa Stenta",
-      "username": "@alissastenta.uk",
-      "image": "https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=864&q=80",
-      "id": 706
+      "name": "Enrique Hernandez",
+      "username": "@enrique.hernandez08",
+      "image": "https://images.unsplash.com/photo-1542178243-bc20204b769f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0JTIwZ3V5fGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "id": 731
     },
     {
-      "name": "Aleksander Nowak",
-      "username": "@its_alex_travels",
-      "image": "https://images.unsplash.com/photo-1610234744207-0524f25443aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "id": 707
+      "name": "Enzo Bianchi",
+      "username": "@EnzoBianchi_it",
+      "image": "https://images.unsplash.com/photo-1484186304838-0bf1a8cff81c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+      "id": 732
     },
     {
-      "name": "Aimee Murphy",
-      "username": "@sarahlovestravel",
-      "image": "https://images.unsplash.com/photo-1654536053136-594f8ce0ca1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=845&q=80",
-      "id": 708
+      "name": "Felix Miller",
+      "username": "@felix_photo_de",
+      "image": "https://images.unsplash.com/photo-1610234744591-0a0174bb93e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "id": 733
     },
     {
-      "name": "Brandon Johnson",
-      "username": "@brandon.m.johnson",
-      "image": "https://images.unsplash.com/photo-1610234744207-0524f25443aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "id": 709
+      "name": "Bella O'Connor",
+      "username": "@bella.in.nyc",
+      "image": "https://images.unsplash.com/photo-1653995038539-18ea48196166?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=916&q=80",
+      "id": 734
     },
     {
-      "name": "Brandon Johnson",
-      "username": "@brandon.m.johnson",
-      "image": "https://images.unsplash.com/photo-1610234744207-0524f25443aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "id": 710
-    },
-    {
-      "name": "Brandon Johnson",
-      "username": "@brandon.m.johnson",
-      "image": "https://images.unsplash.com/photo-1610234744207-0524f25443aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "id": 711
-    },
-    {
-      "name": "Brandon Johnson",
-      "username": "@brandon.m.johnson",
-      "image": "https://images.unsplash.com/photo-1610234744207-0524f25443aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "id": 712
-    },
-    {
-      "name": "Angelina Mikhailova",
-      "username": "@angelina_m_98",
-      "image": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2680&q=80",
-      "id": 713
-    },
-    {
-      "name": "Angelina Mikhailova",
-      "username": "@angelina_m_98",
-      "image": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2680&q=80",
-      "id": 714
-    },
-    {
-      "name": "Angelina Mikhailova",
-      "username": "@angelina_m_98",
-      "image": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2680&q=80",
-      "id": 715
-    },
-    {
-      "name": "Angelina Mikhailova",
-      "username": "@angelina_m_98",
-      "image": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2680&q=80",
-      "id": 716
-    },
-    {
-      "name": "Angelina Mikhailova",
-      "username": "@angelina_m_98",
-      "image": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2680&q=80",
-      "id": 717
-    },
-    {
-      "name": "Angelina Mikhailova",
-      "username": "@angelina_m_98",
-      "image": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2680&q=80",
-      "id": 718
-    },
-    {
-      "name": "Aimee Murphy",
-      "username": "@sarahlovestravel",
-      "image": "https://images.unsplash.com/photo-1654536053136-594f8ce0ca1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=845&q=80",
-      "id": 719
-    },
-    {
-      "name": "Aimee Murphy",
-      "username": "@sarahlovestravel",
-      "image": "https://images.unsplash.com/photo-1654536053136-594f8ce0ca1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=845&q=80",
-      "id": 720
-    },
-    {
-      "name": "Aimee Murphy",
-      "username": "@sarahlovestravel",
-      "image": "https://images.unsplash.com/photo-1654536053136-594f8ce0ca1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=845&q=80",
-      "id": 721
-    },
-    {
-      "name": "Aimee Murphy",
-      "username": "@sarahlovestravel",
-      "image": "https://images.unsplash.com/photo-1654536053136-594f8ce0ca1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=845&q=80",
-      "id": 722
-    },
-    {
-      "name": "Aimee Murphy",
-      "username": "@sarahlovestravel",
-      "image": "https://images.unsplash.com/photo-1654536053136-594f8ce0ca1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=845&q=80",
-      "id": 723
-    },
-    {
-      "name": "Angelina Mikhailova",
-      "username": "@angelina_m_98",
-      "image": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2680&q=80",
-      "id": 724
-    },
-    {
-      "name": "Angelina Mikhailova",
-      "username": "@angelina_m_98",
-      "image": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2680&q=80",
-      "id": 725
-    },
-    {
-      "name": "Angelina Mikhailova",
-      "username": "@angelina_m_98",
-      "image": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2680&q=80",
-      "id": 726
-    },
-    {
-      "name": "Angelina Mikhailova",
-      "username": "@angelina_m_98",
-      "image": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2680&q=80",
-      "id": 727
-    },
-    {
-      "name": "Angelina Mikhailova",
-      "username": "@angelina_m_98",
-      "image": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2680&q=80",
-      "id": 728
-    },
-    {
-      "name": "Brandon Johnson",
-      "username": "@brandon.m.johnson",
-      "image": "https://images.unsplash.com/photo-1610234744207-0524f25443aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "id": 729
+      "name": "Diogo Rodrigues",
+      "username": "@diogo.rodrigues.br",
+      "image": "https://images.unsplash.com/photo-1583809736499-09038f92da11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=825&q=80",
+      "id": 735
     }
   ]
 }

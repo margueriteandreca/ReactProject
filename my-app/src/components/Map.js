@@ -24,6 +24,7 @@ function Map({location, setLocation, coordinates, setCoordinates}) {
         <div id= "map">
 
         <GoogleMap zoom={10} center={coordinates} mapContainerClassName="map-container">
+            
         <Marker position={coordinates}/>
 
         </GoogleMap>

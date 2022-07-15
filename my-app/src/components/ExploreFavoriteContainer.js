@@ -22,7 +22,7 @@ function ExploreFavoriteContainer({myProfile, suggestions, photoLocationToMap}) 
 
 
     return (
-    <div className='favBoxesContainer' >
+    <div className="photos-container" >
                 {filteredSuggestions.map(suggestion => buildComponent(suggestion))}
             </div>
 
