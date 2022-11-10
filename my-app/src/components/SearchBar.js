@@ -27,7 +27,7 @@ function SearchBar({followers, handleClick}) {
     return(
         <form className="search-bar">
             <div>
-                <div className="searchInputs">
+                <div className="search-input">
                     <input type="text" id="search" placeholder="find traveler" value={search} onChange={handleOnChange}/>
                 </div>
                 <div className="dropdown-results">

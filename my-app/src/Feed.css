@@ -122,6 +122,7 @@
 
 
 .whole-follower {
+    min-height: 32px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

@@ -16,7 +16,6 @@ function ExploreFavoriteContainer({myProfile, suggestions, photoLocationToMap}) 
 
 
     function buildComponent(suggestion){
-        //console.log("TO BUILD: ", suggestion);
         return <ProfilePhoto key={suggestion.id} photo={suggestion} photoLocationToMap={photoLocationToMap}/>
     };
 
